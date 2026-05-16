@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea documento html</title>
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenido a Mi Página Web</h1>
+        <nav>
+            <a href="#sobre-mi">Sobre Mí</a> |
+            <a href="#galeria">Galería</a> |
+            <a href="#video">Video</a> |
+            <a href="#enlaces">Enlaces</a>
+            <a href="#hobby">Hobbies</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="sobre-mi">
+            <!-- Tu contenido de Sobre Mí aquí -->
+            <!-- Subtítulo -->
+        <h2>Sobre Mí</h2>
+
+        <!-- Párrafo de presentación -->
+        <p>Hola, mi nombre es <strong>TU NOMBRE</strong>.
+        Soy estudiante de programación y esta es
+        mi <em>primera página web</em> creada con HTML5.</p>
+
+        <h2>Mis Intereses</h2>
+
+        <p>Me gusta <mark>la tecnología</mark>, los
+        videojuegos y aprender cosas nuevas.</p>
+
+        <h3>Carros</h3>
+        <p>Me gustan los carros y como funcionan, especialmente los <strong>carros deportivos</strong></p>
+        </section>
+    
+        <section id="galeria">
+            <!-- Tus imágenes aquí -->
+            <h2>Galería de Imágenes</h2>
+
+            <!-- Imagen local desde la carpeta images -->
+            <img src="images/tu-imagen.jpg"
+                alt="Descripción de la imagen"
+                width="400"/>
+        
+            <!-- Segunda imagen -->
+            <img src="images/otra-imagen.png"
+                alt="Descripción de la segunda imagen"
+                width="300"/>
+        </section>
+    
+        <section id="video">
+            <!-- Tu iframe de YouTube aquí -->
+            <!-- Reemplaza la URL con tu video -->
+            <h2>Mi Video Favorito</h2>
+            <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/wxGYTjFbD5A?si=66VGgpkEh8aGIH44" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        </section>
+    
+        <section id="enlaces">
+            <!-- Tus enlaces aquí -->
+            <!-- =========================== -->
+            <!-- SECCIÓN: ENLACES ÚTILES -->
+            <!-- =========================== -->
+            <h2>Enlaces Útiles</h2>
+
+            <!-- Enlace que abre en la misma pestaña -->
+            <p>Visita <a href="https://www.google.com">Google</a></p>
+
+            <!-- Enlace que abre en nueva pestaña -->
+            <p>Aprende en <a href="https://developer.mozilla.org"
+            target="_blank">MDN Web Docs</a></p>
+
+            <h2>Enlaces personales</h2>
+
+            <!-- Enlace que abre en la misma pestaña -->
+            <p>Visita <a href="https://www.youtube.com/?app=desktop&hl=es">Youtube</a></p>
+
+            <!-- Enlace que abre en nueva pestaña -->
+            <p>Aprende en <a href="https://estudiante-cucuta.campuslands.com/inicio/1"
+            target="_blank">Campuslands</a></p>
+        </section>
+
+        <section id="hobby">
+            <h2>Mis hobbys</h2> <!-- Pequeño titulo diciendo de lo que trata su contenido-->
+            <p>Uno de mis hobbies es tocar la <strong>guitarra</strong></p> <!-- Diciendo cual es my hobby-->
+            <img src="data:image/jpeg;base64,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" alt="guitarra">
+            <p>Si quieres empezar a aprender a tocar la guiatarra te recomiendo ver este <a href="https://youtu.be/S_QIaGgLJ-0?si=-GG_i6iBwZHn_oi_">video</a></p> <!-- Video recomendado para aprender-->
+        </section>
+    </main>
+    
+    <footer>
+        <p>Creado por Juan Manuel Gouveia Ortiz - 2026</p>
+    </footer>
+
+</body>
+</html>
